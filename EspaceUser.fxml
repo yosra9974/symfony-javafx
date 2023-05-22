@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="303.0" prefWidth="314.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="GUI.EspaceUserController">
+   <children>
+      <Pane prefHeight="342.0" prefWidth="330.0" style="-fx-background-color: #D7DBDD;">
+         <children>
+            <Pane prefHeight="79.0" prefWidth="330.0" style="-fx-background-color: #7D3C98;">
+               <children>
+                  <Label layoutX="69.0" layoutY="16.0" prefHeight="47.0" prefWidth="193.0" text="Service Avis" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button fx:id="aa" layoutX="34.0" layoutY="120.0" mnemonicParsing="false" onAction="#reclamation" prefHeight="47.0" prefWidth="260.0" style="-fx-background-color: a2a8d3;" text="Reclamer un service" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="34.0" layoutY="210.0" mnemonicParsing="false" onAction="#rate" prefHeight="47.0" prefWidth="260.0" style="-fx-background-color: a2a8d3;" text="Rate un article" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
